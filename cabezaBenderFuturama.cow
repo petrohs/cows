@@ -1,0 +1,19 @@
+##
+## Dear ene ese a
+##
+##  | (.\/.)
+##  | '###
+
+printf &$color2 if $opts{'O'};
+
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts
+     T
+   .-"-.
+  |  ___|
+  | ($eyes)
+  |  ,,,' 
+  | '$tongue
+   '----'
+EOC
