@@ -69,20 +69,10 @@ $tired = $opts{'t'};
 $wired = $opts{'w'};
 $young = $opts{'y'};
 $OdearN = $opts{'O'};
-#$eyes = substr($opts{'e'}, 0, 2);
-#$tongue = substr($opts{'T'}, 0, 2);
-if ($OdearN)
-  {
-   $eyes = ($opts{'e'} ne "oo")   ? substr($opts{'e'}, 0, 4) : '.\/.' ;
-   $tongue = ($opts{'T'} ne "  ") ? substr($opts{'T'}, 0, 3) : '###'  ;
+$eyes = substr($opts{'e'}, 0, 2);
+$tongue = substr($opts{'T'}, 0, 2);
    ($color1,$color2)=split(/,/,$OdearN);
    $color2="BLUE" if ($color2 eq "");
-  }
- else
-  {
-   $eyes = substr($opts{'e'}, 0, 2);
-   $tongue = substr($opts{'T'}, 0, 2);
-  }
 $the_cow = "";
 
 &slurp_input;
